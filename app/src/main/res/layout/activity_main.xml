@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Doctors"
+        app:titleTextColor="@color/black"
+        android:theme="@style/toolbar_style"/>
+
+
+    <androidx.cardview.widget.CardView
+         android:layout_height="50dp"
+         android:layout_width="match_parent"
+         android:layout_marginTop="20dp"
+         app:cardBackgroundColor="#5A53CF"
+        app:cardCornerRadius="2dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:fontFamily="@font/opensans_bold"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center_vertical"
+            android:text="Novikov Azamat"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="6dp"
+        app:cardBackgroundColor="#5A53CF"
+        app:cardCornerRadius="2dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:fontFamily="@font/opensans_bold"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center_vertical"
+            android:text="Nurmatov Zamir"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="6dp"
+        app:cardBackgroundColor="#5A53CF"
+        app:cardCornerRadius="2dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:fontFamily="@font/opensans_bold"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center_vertical"
+            android:text="Khalilova Munisa "/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="6dp"
+        app:cardBackgroundColor="#5A53CF"
+        app:cardCornerRadius="2dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:fontFamily="@font/jetbrains_mono"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center_vertical"
+            android:text="Alieva Adina"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="6dp"
+        app:cardBackgroundColor="#5A53CF"
+        app:cardCornerRadius="2dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:fontFamily="@font/jetbrains_mono"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center_vertical"
+            android:text="Kolesova Viktoria"/>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
