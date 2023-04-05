@@ -19,10 +19,11 @@
 
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/card_1"
          android:layout_height="50dp"
          android:layout_width="match_parent"
          android:layout_marginTop="20dp"
-         app:cardBackgroundColor="#5A53CF"
+         app:cardBackgroundColor="@color/app_color_purple_light"
         app:cardCornerRadius="2dp">
         <TextView
             android:layout_width="match_parent"
@@ -37,10 +38,11 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/card_2"
         android:layout_height="50dp"
         android:layout_width="match_parent"
         android:layout_marginTop="6dp"
-        app:cardBackgroundColor="#5A53CF"
+        app:cardBackgroundColor="@color/app_color_purple_light"
         app:cardCornerRadius="2dp">
         <TextView
             android:layout_width="match_parent"
@@ -55,10 +57,11 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/card_3"
         android:layout_height="50dp"
         android:layout_width="match_parent"
         android:layout_marginTop="6dp"
-        app:cardBackgroundColor="#5A53CF"
+        app:cardBackgroundColor="@color/app_color_purple_light"
         app:cardCornerRadius="2dp">
         <TextView
             android:layout_width="match_parent"
@@ -73,10 +76,11 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/card_4"
         android:layout_height="50dp"
         android:layout_width="match_parent"
         android:layout_marginTop="6dp"
-        app:cardBackgroundColor="#5A53CF"
+        app:cardBackgroundColor="@color/app_color_purple_light"
         app:cardCornerRadius="2dp">
         <TextView
             android:layout_width="match_parent"
@@ -89,11 +93,13 @@
             android:gravity="center_vertical"
             android:text="Alieva Adina"/>
     </androidx.cardview.widget.CardView>
+
     <androidx.cardview.widget.CardView
+        android:id="@+id/card_5"
         android:layout_height="50dp"
         android:layout_width="match_parent"
         android:layout_marginTop="6dp"
-        app:cardBackgroundColor="#5A53CF"
+        app:cardBackgroundColor="@color/app_color_purple_light"
         app:cardCornerRadius="2dp">
         <TextView
             android:layout_width="match_parent"

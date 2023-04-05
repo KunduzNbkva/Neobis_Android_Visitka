@@ -17,5 +17,7 @@
 
     <style name="toolbar_style" parent="ThemeOverlay.AppCompat.ActionBar">
         <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">32sp</item>
+
     </style>
 </resources>
