@@ -14,7 +14,7 @@ class DetailActivity : AppCompatActivity() {
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.tvDoctorsSurname.text = "Dr. ${intent.getStringExtra(MainActivity.SURNAME)}"
+        binding.tvDoctorsSurname.text = getString(R.string.dr,intent.getStringExtra(MainActivity.SURNAME))
 
         binding.callLayout.setOnClickListener {
             val callIntent = Intent(Intent.ACTION_DIAL)
