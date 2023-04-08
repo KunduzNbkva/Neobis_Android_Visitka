@@ -18,4 +18,17 @@
     <string name="your_friendly_dental_friend">Your friendly Dental Friend</string>
     <string name="dentist">Dentist</string>
     <string name="dr">Dr. %1$s</string>
+    <string name="no_app">Не получается обработать намерение!</string>
+    <string name="tel">tel:</string>
+    <string name="phone_num">0 700 330 200</string>
+    <string name="mailto">mailto:</string>
+    <string name="gmail">dentistkg@gmail.com</string>
+    <string name="google_link">http://maps.google.com/maps?q=loc:</string>
+    <string name="dental_clinic">Dental clinic</string>
+    <string name="google_maps_package">com.google.android.apps.maps</string>
+    <string name="Novikov">Novikov</string>
+    <string name="Nurmatov">Nurmatov</string>
+    <string name="Khalilova">Khalilova</string>
+    <string name="Alieva">Alieva</string>
+    <string name="Kolesova">Kolesova</string>
 </resources>
